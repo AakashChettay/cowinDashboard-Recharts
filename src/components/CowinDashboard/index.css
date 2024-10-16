@@ -1,0 +1,82 @@
+.cowin-dashboard-bgContainer {
+  background-color: #161625;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.logo-title-container {
+  display: flex;
+  align-self: flex-start;
+  margin-bottom: 20px;
+}
+
+.logo {
+  width: 50px;
+  margin-right: 10px;
+}
+
+.heading-style {
+  color: #ffffff;
+  font-size: 24px;
+  align-self: flex-start;
+  font-family: 'Roboto', sans-serif;
+}
+
+.para-style {
+  color: #cbd5e1;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 30px;
+  align-self: flex-start;
+}
+
+.scenerio-container {
+  width: 100%;
+  max-width: 1200px;
+  padding: 20px;
+  background-color: #161625;
+  border-radius: 10px;
+}
+
+.failed-view-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.failed-view-image {
+  width: 250px;
+  margin-bottom: 20px;
+}
+
+.failed-view-para {
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+}
+.loader-container {
+  position: fixed; /* or absolute, depending on your layout */
+  top: 0; /* Align to the top of the viewport */
+  left: 0; /* Align to the left of the viewport */
+  width: 100vw; /* Full width of the viewport */
+  height: 100vh; /* Full height of the viewport */
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  background-color: rgba(
+    22,
+    22,
+    37,
+    0.8
+  ); /* Optional: semi-transparent background */
+  z-index: 999; /* Optional: ensure it's above other elements */
+}
+
+.visualisers-container {
+  background-color: #1c1c2b;
+  margin: 25px;
+  padding: 25px;
+  border-radius: 10px;
+}
